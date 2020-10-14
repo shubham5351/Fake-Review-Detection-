@@ -11,7 +11,7 @@ Problem Statement - Fake Review detection on 20 Chicago Hotel Review Dataset usi
 
 ## contributors
 
-- [Priyanshu Singh] - Frontend part
+- [Priyanshu Singh](https://github.com/reveurguy) - Frontend part
 - [Ayush Modi] - ML Part
-- [Shubham Pawar] - ML Part
-- [Rutuja Nemane] - Deployment using Flask
+- [Shubham Pawar](https://github.com/shubham5351) - ML Part
+- [Rutuja Nemane](https://github.com/rutujanemane) - Deployment using Flask
