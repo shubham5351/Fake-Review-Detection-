@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/106dacd3a9.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+     <!-- css -->
+     <link rel="stylesheet" href="static/styles.css">
+
+    <title>Py-Tricksters | Fake Review Detection</title>
+</head>
+
+<body class="d-flex flex-column" tabindex="0">
+    <header class="text-light bg-dark">
+        <div class="container p-4">
+            <div class="heading text-center">
+                <span class="heading-logo p-1">Py-Tricksters</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main pt-5 text-center">
+        <span class="project-heading display-4 text-light p-3">Fake Review Detection</span> 
+        <form action="{{ url_for('predict')}}" method="post">
+            <textarea name="enteredinfo" id="" placeholder="Enter the review..." class="mt-3"></textarea>
+            <div class="mt-3">
+                <button type="submit" class="btn btn-danger btn-lg">
+                    <h3 class="mb-0 font-weight-bold">Submit</h3>
+                </button>
+            </div>
+        </form>
+        
+    </div>
+
+  
+
+    <footer class="footer text-light bg-dark py-4 text-center">
+        <div class="container"> 
+            <div class="footer-text">
+                <h2 class="font-weight-bold p-2">Made With <i class="fas fa-heart fa-lg" style="color: #dc3545;"></i></h2>
+                <h3 class="font-weight-bold mb-1">Developed By</h3>
+                <ul class="list-unstyled">
+                    <li>Shubham Pawar</li>
+                    <li>Priyanshu Singh</li>
+                    <li>Ayush Modi</li>
+                    <li>Rutuja Nemane</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
