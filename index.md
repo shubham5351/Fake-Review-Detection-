@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Hate-Speech-Detection
 
-You can use the [editor on GitHub](https://github.com/shubham5351/Fake-Review-Detection-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- [Problem Statement](#problem-statement)
+- [Libraries Used](#libraries-used)
+- [Setup](#setup)
+- [Contributors](#contributors)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+> Hate Speech detection using Machine Learning
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Problem Statement
 
-```markdown
-Syntax highlighted code block
+Problem Statement - 
+Hate Speech are a words, actions which is prohibited because it leads to acts that trigger violence attitude towards other individuals or groups. So in this project we are detecting such hate speech words and try to find it and prohibit such words from being lead to violence. We have also deployed the model Using Flask.
 
-# Header 1
-## Header 2
-### Header 3
+## Libraries Used
 
-- Bulleted
-- List
+- pandas
+- numpy
+- matplotlib
+- sklearn 
+- Flask
 
-1. Numbered
-2. List
+## Setup
 
-**Bold** and _Italic_ and `Code` text
+1) clone the repository to your localmachine<br>
+``` git clone https://github.com/shubham5351/Hate-Speech-Detection.git ```
 
-[Link](url) and ![Image](src)
-```
+2) go to the proper directory of cloned repo and Run app.py<br>
+``` python app.py```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3) Visit the localhost:8000 or the link provided to see your application running.This is the screen after running successfully.<br>
+<img src="https://github.com/shubham5351/Hate-Speech-Detection/blob/main/Screenshots/1.JPG" width=1000 height=600></img>
 
-### Jekyll Themes
+4) Please Enter the Review for which you want to detect whether it is hatespeech review.<br>
+<img src="https://github.com/shubham5351/Hate-Speech-Detection/blob/main/Screenshots/2.JPG" width=1000 height=600></img>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shubham5351/Fake-Review-Detection-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+5) After Entering the Review It will predict whether the Review was Hatespeech or Not.<br>
+<img src="https://github.com/shubham5351/Hate-Speech-Detection/blob/main/Screenshots/3.JPG" width=1000 height=600></img>
 
-### Support or Contact
+## Contributors
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [Ayush Modi](https://github.com/hot9cups) - ML Modeling & Analysis Part
+- [Shubham Pawar](https://github.com/shubham5351) - Frontend & Deployment Part
